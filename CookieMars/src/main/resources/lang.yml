@@ -1,0 +1,32 @@
+InvalidPermission: "&cYou do not have permission to execute this command!"
+VoteLinks:
+  1:
+    Text: "&f1. &9&ntinyurl.com/votemars0&f"
+    URL: "https://tinyurl.com/votemars0"
+  2:
+    Text: "&f2. &9&ntinyurl.com/votemars1&f"
+    URL: "https://tinyurl.com/votemars1"
+  3:
+      Text: "&f3. &9&ntinyurl.com/votemars2&f"
+      URL: "https://tinyurl.com/votemars2"
+  4:
+      Text: "&f4. &9&ntinyurl.com/votemars3&f"
+      URL: "https://tinyurl.com/votemars3"
+
+Cookie:
+  CooldownMessage: "&4&l|&2&l| &fWoah! We appreciate your generosity, but you have given out way too many cookies recently! Please wait &a%remaining time%&f.."
+  PlayerGiveCookie: "&4&l|&2&l| &fYou just gave &a%staff% &fa cookie! They now have &a%total_cookie% &fcookies."
+  StaffGetCookie: "&4&l|&2&l| &fYou just got a cookie from &a%player%&f! You now have &a%total_cookie% cookies&f."
+  MissingArgument: "&cYou need to add a staff member!"
+  StaffOffline: "&4&l|&2&l| &fYou cannot give a cookie to &a%staff% &fbecause they are offline!"
+  StaffCooldown: "&4&l|&2&l| &a%staff% &fhas already had too many cookies recently!"
+  StaffGiveCookie: "&4&l|&2&l| &fYou cannt give cookies as a staff member!."
+
+AlterCookie:
+  MissingArgument: "&cYou need to make sure you have the players name, function, amount listed in order!"
+  Example: "&c/altercookie 0hLilly add 69"
+  InvalidNumber: "&cYou need to enter a number!"
+  InvalidFunction: "&cYou need to enter a valid function 'add', 'remove', 'set'!"
+  SuccessAdded: "&4&l|&2&l| &fSuccessfully added %amount% to %player%'s cookie balance!"
+  SuccessSet: "&4&l|&2&l| &fSuccessfully set %player%'s cookie balance to %amount%!"
+  SuccessRemoved: "&4&l|&2&l| &fSuccessfully removed %amount% from %player%'s cookie balance!"

@@ -1,0 +1,17 @@
+main: marscraft.org.CookieMars
+name: CookieMars
+version: 1.0
+api-version: 1.17
+commands:
+    vote:
+        description: gives vote links
+        usage: /<command>
+    cookie:
+        description: gives staff cookie
+        usage: /<command> [<player>]
+    cookieleaderboard:
+        description: gives staff leaderboard
+        usage: /<command>
+    altercookie:
+        description: changes cookie balance
+        usage: /<command> <function> <amount>
